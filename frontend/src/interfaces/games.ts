@@ -1,3 +1,16 @@
+interface Game {
+    id: number;
+    name: string;
+    image: string;
+    platform: string;
+    category: string;
+  }
+  
+  interface DropdownOption {
+    value: string;
+    label: string;
+  }
+
 // export interface Game {
 //     id: number;
 //     name: string;
